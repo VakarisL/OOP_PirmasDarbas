@@ -19,23 +19,23 @@ int main(){
 }
 
 void printHelloWorld(std::string eilute){
-    for(int i=0; i<eilute.size()+2; i++) std::cout << "*";
+    for(int i=0; i<eilute.length()+2; i++) std::cout << "*";
     std::cout << std::endl;
 
-    for(int i=0; i<eilute.size()+2;i++) {
-            if(!(i==0 || i==eilute.size()+1)) std::cout << " ";
+    for(int i=0; i<eilute.length()+2;i++) {
+            if(!(i==0 || i==eilute.length()+1)) std::cout << " ";
             else std::cout << "*";
     }
     std::cout << std::endl;
 
     std::cout << "*" << eilute << "*" << std::endl;
 
-    for(int i=0; i<eilute.size()+2;i++) {
-            if(!(i==0 || i==eilute.size()+1)) std::cout << " ";
+    for(int i=0; i<eilute.length()+2;i++) {
+            if(!(i==0 || i==eilute.length()+1)) std::cout << " ";
             else std::cout << "*";
     }
     std::cout << std::endl;
 
-    for(int i=0; i<eilute.size()+2;i++) std::cout << "*";
+    for(int i=0; i<eilute.length()+2;i++) std::cout << "*";
     std::cout << std::endl;
 }
